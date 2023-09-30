@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    color: #1db954;
+}
+
+body {
+    margin: 0;
+    background-color: #1db9546f;
+}
+
+a {
+    color: #1db954;
+    text-decoration: none;
+}
+
+
+button {
+    background-color: white;
+    outline-color: #1db954;
+}
+
+#body-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+#search-container {
+    border-color: black;
+    display: flex;
+    position: fixed;
+    top: 0;
+    padding: 30px;
+    z-index: 100;
+}
