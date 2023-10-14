@@ -17,6 +17,7 @@ body{
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
+   background:linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
 }
 .wrapper{
     width: 420px;
