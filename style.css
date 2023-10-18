@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: wheat;
+}
+
+ul {
+  margin-top: 70px;
+}
+
+li {
+  margin-top: 50px;
+  font-size: large;
+  padding-left: 30px;
+}
+
+/* Apply a background color to the body */
+body {
+  background-color: #181616;
+  font-family: Arial, sans-serif;
+}
+
+.searchBox {
+  width: 100%;
+  padding: 9px 127px;
+  border-radius: 50px;
+  border: none;
+  background-color: rgb(218, 225, 208);
+  font-size: 15px;
+}
+
+/* Style the left sidebar */
+.left-bar {
+  background-color: #252424;
+  color: #130101;
+  width: 350px;
+  padding: 20px;
+  float: left;
+  height: 750px;
+}
+
+.left-bar h2 {
+  font-size: 18px;
+  margin-top: 100px;
+  color: rgb(170, 141, 34);
+}
+
+/* Style the navigation links */
+.navigation ul {
+  list-style-type: none;
+}
+
+.navigation li {
+  margin-bottom: 10px;
+}
+
+/* Style the container */
+.container {
+  float: left;
+  padding: 20px;
+}
+
+/* Style the right corner profile icon or login button */
+.right-corner {
+  float: right;
+  padding: 20px;
+}
+
+/* Style the footer */
+/* footer {
+      clear: both;
+      text-align: center;
+      padding: 10px;
+      background-color: #7d6666;
+      color: #fff;
+  } */
+.create-playlist {
+  margin-top: 180px;
+  background-color: rgb(200, 172, 172);
+  border-radius: 10px;
+  box-shadow: none;
+  margin-left: 250px;
+}
+
+li:hover,
+h3:hover {
+  color: rgb(160, 108, 108);
+  /* margin-top: 10px; */
+}
+profile-button:hover {
+  color: #e42222;
+}
+.container {
+  display: inline-block;
+  border: 2px solid rgb(52, 43, 43);
+  width: 850px;
+  height: 750px;
+  margin: 1px;
+}
+.music-preferences {
+  display: inline-block;
+  padding-inline: 300px;
+  border: 2px solid rgb(127, 70, 70);
+  width: 150px;
+  height: 100px;
+  margin: 30px;
+  border-radius: 30px;
+}
+
+.suggestions {
+  display: inline-block;
+  padding-inline: 300px;
+  border: 2px solid rgb(127, 70, 70);
+  width: 150px;
+  height: 100px;
+  margin: 30px;
+  border-radius: 30px;
+}
+.spotify-mixes {
+  display: inline-block;
+  padding-inline: 300px;
+  border: 2px solid rgb(127, 70, 70);
+  width: 150px;
+  height: 100px;
+  margin: 30px;
+  border-radius: 30px;
+}
+.recently-played {
+  display: inline-block;
+  padding-inline: 300px;
+  border: 2px solid rgb(127, 70, 70);
+  width: 150px;
+  height: 100px;
+  margin: 30px;
+  border-radius: 30px;
+}
+
+/* Add more styles as needed for song controls, progress bar, etc. */
+
+.btn {
+  padding: 7px 23px;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #3d3526;
+  /* margin-top: 95px; */
+  /* margin-left: 80px; */
+}
+.btn-createPlaylist {
+  padding: 7px 23px;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #3d3526;
+  margin-top: 95px;
+  margin-left: 80px;
+}
+.bi-shuffle {
+  color: wheat;
+  padding: 150px;
+}
+.bi-pause-circle-fill {
+  color: wheat;
+  padding: 150px;
+}
+.bi-repeat {
+  color: wheat;
+  padding: 150px;
+}
+.bi-volume-up {
+  color: wheat;
+  padding: 150px;
+}

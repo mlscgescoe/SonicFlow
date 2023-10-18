@@ -56,8 +56,7 @@ input#submit{
     cursor: pointer;
     border:1px solid
     rgba(225,225,225,0.3);
-    box-shadow: 1px 1px 5px;
-    rgba(0,0,0,0.3);
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
     margin-bottom: 20px;
 }
 label,span,h2{
