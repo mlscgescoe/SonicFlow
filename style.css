@@ -26,6 +26,7 @@ body {
   padding: 9px 127px;
   border-radius: 50px;
   border: none;
+  color: black;
   background-color: rgb(218, 225, 208);
   font-size: 15px;
 }
@@ -147,6 +148,9 @@ profile-button:hover {
   color: #3d3526;
   /* margin-top: 95px; */
   /* margin-left: 80px; */
+}
+.btn a{
+  color: #3d3526;
 }
 .btn-createPlaylist {
   padding: 7px 23px;
