@@ -148,6 +148,9 @@ profile-button:hover {
   /* margin-top: 95px; */
   /* margin-left: 80px; */
 }
+.btn a{
+  color: #3d3526;
+}
 .btn-createPlaylist {
   padding: 7px 23px;
   border-radius: 7px;
